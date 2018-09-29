@@ -2,7 +2,7 @@
 
 cd server
 npm run server &
-cd client 
+cd ../client
 yarn start &
 
 wait
