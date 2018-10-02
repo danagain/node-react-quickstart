@@ -1,8 +1,8 @@
 #!/bin/sh
 
 cd server
-npm run server &
-cd ../client
+nodemon server.js &
+cd ../client 
 yarn start &
 
 wait
