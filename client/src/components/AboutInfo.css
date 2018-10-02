@@ -1,0 +1,10 @@
+.aboutInfodiv{
+    margin-left:10%;
+    margin-right:10%;
+    height:100vh;
+    border-bottom-color: black;
+    box-shadow: 0 1px 6px rgba(0, 10, 20, 0.845), 0 10px 80px rgba(0, 0, 0, 0.845);
+    background-color: white;
+    margin-top:-5%;
+    z-index: 1;
+}

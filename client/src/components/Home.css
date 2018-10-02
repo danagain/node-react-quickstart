@@ -1,37 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 
 .module {
     height:100vh;
     width:100%;
-    background: url(../img/home.jpg);
+    background: url(../img/windmill.jpg);
     background-size: cover;
-    padding-top:15%;
+    left:0;
+    top: 0;
   }
 
   .darken {
     background-image: 
       linear-gradient(
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.2)
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.5)
       ),
-      url(../img/home.jpg);
+      url(../img/windmill.jpg);
   }
   
 
 h1 {
     width:100%;
     color:white;
-    font-weight:400;
-    font-size: 8rem;
-    font-family: 'Open Sans', sans-serif;
-    text-shadow: 2px 2px black;
+    font-weight:300;
+    font-size: 5.6rem;
+    text-shadow: 4px 4px black;
+    font-family: 'Playfair Display', serif;
 }
 
 h3 {
     width:100%;
     color:white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     text-shadow: 1.5px 1.5px black;
+    font-size:1.3em;
+
 }
 
 button{
@@ -49,7 +52,30 @@ i{
     font-size: 1em;
     transform: perspective(500px);
 }
-
-.manageBtn{
-    justify-content: center;
+.homelabels{
+    position: relative;
+    margin-left:2em;
+    bottom:-50%;
 }
+
+.flex-container{
+    display:flex;
+    justify-content: space-around;
+    padding:0px;
+}
+
+
+i{color:white;}
+
+
+.test{
+   padding-left:65%;
+   position: fixed;
+   z-index:100;
+   width:100%;
+}
+
+.remove-all-margin-padding{
+    margin:0 ! important;
+    padding:0 ! important;
+    }
