@@ -1,31 +1,39 @@
 import React from "react";
 import './Home.css';
-import { Link } from 'react-router-dom'
-import About  from './About.js'
+import {Link} from 'react-router-dom'
+import About from './About.js'
 
 const Home = () => {
-    
     return (
-        <div>
-    <div className="container-fluid module darken col-12 col-md-12 col-xs-4 remove-all-margin-padding">
-        <div classMenu="navMenu flex-container">
-        <div className="test">
-        <i className="fab fa-react fa-lg m-4"><span className="p-2">React</span></i>
-        <Link to='/about' className="m-4"><i className="fas fa-shopping-cart fa-lg"><span className="p-2">Purchase</span></i></Link>
-        <Link to='/contact' className="m-4"><i class="fas fa-comment fa-lg"><span className="p-2">Contact</span></i></Link>
+      <div class="cover-container">
 
-        
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">FullMarket</h3>
+          <nav>
+            <ul class="nav masthead-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
+
+      <div class="inner cover">
+        <h1 class="cover-heading">Complex Neural Network Trading</h1>
+        <p class="lead">Full Market is an end to end technical analysis platform for traders and investors alike, levereging advancements in Artifical Intelligence to provide accurate stock market forecasts </p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-default">Learn more</a>
+        </p>
+      </div>
+
+      <div class="mastfoot">
+        <div class="inner">
+
         </div>
-            <div className="row p-2 homelabels">
-            <h1 className="">Some Title</h1>
-            <h3 className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-            </div>
-            {/* <div className="row manageBtn">
-            <Link to='/manager'><button><i className="fas fa-angle-right"></i></button></Link>
-            </div> */}
-    </div>
-    <About/>
+      </div>
+
     </div>
     );
 };
